@@ -8,7 +8,7 @@ import org.slf4j.Logger;
 // @Mod(LearnBlaze3D.MOD_ID)
 public class LearnBlaze3D {
 
-	public static final String MOD_ID = "learnblaze3d"; // 指南参考 MOD 的 MOD ID, 作为标识符, 将他替换为你在 gradle.properties 或 neoforge.mods.toml 中指定的 MOD ID.
+	public static final String MOD_ID = "learnblaze3d02"; // 指南参考 MOD 的 MOD ID, 作为标识符, 将他替换为你在 gradle.properties 或 neoforge.mods.toml 中指定的 MOD ID.
 	public static final Logger LOGGER = LogUtils.getLogger(); // 指南参考 MOD 的 Logger, 作为 Log 输出.
 
 	// 在 GameRenderer 初始化时调用, 用于初始化各种渲染资源, 仅调用一次.

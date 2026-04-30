@@ -1,7 +1,7 @@
 {
   "required": true,
   "minVersion": "0.8",
-  "package": "com.github.argon4w.learnblaze3d.chapter02.mixins",
+  "package": "com.github.argon4w.learnblaze3d.chapter04.mixins",
   "compatibilityLevel": "JAVA_25",
   "client": [
     "GameRendererMixin"
