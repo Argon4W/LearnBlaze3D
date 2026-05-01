@@ -89,15 +89,6 @@ public class LearnBlaze3D {
 		// 然后用 commandEncoder 向 GPU 发出 "将这段堆外内存写入到指定的 GPU 内存内的指定范围" 的命令.
 		encoder.writeToBuffer(range, offHeapBuffer);
 
-		try (var mapped = encoder.mapBuffer(buffer, false, true)) {
-			var byteBuf = mapped.data();
-
-			byteBuf.putInt(0, 114);
-			byteBuf.putInt(4, 514);
-			byteBuf.putInt(8, 1919);
-			byteBuf.putInt(12, 810);
-		}
-
 		// 接下来我们要告诉 GPU 如何读取我们的数据, 毕竟这可没有一个预先约定好的规则.
 		// 我们将构建 VertexFormat (顶点格式) 来告诉 GPU 如何读取数据.
 
